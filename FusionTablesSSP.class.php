@@ -16,7 +16,7 @@
  */
 
 class FusionTablesSSP {
-    var $fusion_base_url = 'https://www.googleapis.com/fusiontables/v1/query';
+    var $fusion_base_url = 'https://www.googleapis.com/fusiontables/v2/query';
 
     function __construct($table, $key) {
         $this->key = $key;
